@@ -1,12 +1,33 @@
-# React + Vite
+# 🔗 React URL Shortener
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, client-side **URL Shortener Web App** built using **React** and **Material UI**. It allows users to shorten long URLs, optionally define custom shortcodes, set expiry times, and view detailed analytics for each shortened URL.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔗 Shorten up to 5 URLs at a time
+- ✍️ Optional custom shortcode support
+- 🕒 Set URL validity (defaults to 30 minutes if not provided)
+- 📊 Track clicks per shortened URL
+- 🌍 View click details: timestamp, source, location
+- ⚡ Built with React, Vite, and Material UI
+- 📦 Session-based data persistence (localStorage)
+- 🔐 Custom logging middleware (no console.log used)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Material UI**
+- **React Router DOM**
+- **Vite**
+- **Custom Hooks & Middleware**
+- **localStorage (for state persistence)**
+
+---
+
+
+
